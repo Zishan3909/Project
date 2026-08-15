@@ -1,0 +1,6 @@
+[build]
+  # This command cancels auto-deployments triggered by this GitHub repository.
+  # Since this is a public portfolio demonstration repo without the private 3D assets, 
+  # we return exit code 0 to safely cancel the build without throwing an error.
+  # The live site should be deployed manually from the local environment.
+  ignore = "exit 0"
