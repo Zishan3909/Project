@@ -21,7 +21,7 @@ const projects = [
     category: "Competitive Programming",
     tools: "C++, Java, Python, Data Structures, Algorithms, Complexity Analysis",
     image: "/images/leetcode_dsa_preview.jpg",
-    link: "https://github.com/Zishan3909/DSA",
+    link: "https://leetcode.com/u/Zishan0_0/",
   },
   {
     num: "03",
@@ -29,23 +29,7 @@ const projects = [
     category: "Open Source Portfolio",
     tools: "React, TypeScript, Vite, Tailwind CSS, GitHub Rest API",
     image: "/images/github_portfolio_preview.jpg",
-    link: "https://github.com/Zishan3909/Project",
-  },
-  {
-    num: "04",
-    name: "BTech CSE Academic Projects",
-    category: "Academic & Coursework",
-    tools: "C++, Data Structures, Algorithms, Core CS Concepts",
-    image: "/images/placeholder.webp",
-    link: "https://github.com/Zishan3909/BTech-CSE",
-  },
-  {
-    num: "05",
-    name: "QuickDraw Practice",
-    category: "Machine Learning / Canvas",
-    tools: "JavaScript, HTML5 Canvas, ML Integrations",
-    image: "/images/placeholder.webp",
-    link: "https://github.com/Zishan3909/quickdraw-practice",
+    link: "https://github.com/Zishan3909",
   },
 ];
 
