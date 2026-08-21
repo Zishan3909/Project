@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Insights",
+  "version": "1.0",
+  "description": "Displays company tags and frequency insights on LeetCode problem lists.",
+  "permissions": ["storage"],
+  "host_permissions": ["*://leetcode.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://leetcode.com/problemset/*", "*://leetcode.com/study-plan/*", "*://leetcode.com/tag/*", "*://leetcode.com/problems/*"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["data.json"],
+      "matches": ["*://leetcode.com/*"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "LeetCode Insights"
+  }
+}

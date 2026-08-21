@@ -1,0 +1,4 @@
+# Ignore the downloaded dataset repository to keep your project lightweight
+leetcode-company-wise-problems/
+__pycache__/
+*.pyc

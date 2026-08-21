@@ -1,0 +1,36 @@
+.lc-insights-container {
+  display: inline-flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.lc-insights-badge {
+  background-color: #ffa11626; /* LeetCode orange with opacity */
+  color: #ffa116; /* LeetCode orange */
+  border: 1px solid #ffa11640;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 2px 6px;
+  border-radius: 12px;
+  white-space: nowrap;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.lc-company-logo {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  object-fit: contain;
+}
+
+/* For dark mode / light mode compatibility */
+@media (prefers-color-scheme: light) {
+  .lc-insights-badge {
+    background-color: #ffa1161a;
+    color: #cc8111;
+  }
+}
