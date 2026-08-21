@@ -31,6 +31,14 @@ const projects = [
     image: "/images/github_portfolio_preview.jpg",
     link: "https://github.com/Zishan3909",
   },
+  {
+    num: "04",
+    name: "LeetCode Insights Extension",
+    category: "Chrome Extension",
+    tools: "JavaScript, Chrome Extension API, DOM Manipulation",
+    image: "/images/leetcode_dsa_preview.jpg",
+    link: "https://github.com/Zishan3909/Project/tree/main/leetcode-insights-extension",
+  },
 ];
 
 const Work = () => {
