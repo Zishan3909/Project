@@ -1,0 +1,19 @@
+{
+  "name": "tourguard-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TourGuard AI — Intelligent Tourist Safety & Monitoring Platform",
+  "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:dashboard\" \"npm run start:mobile\"",
+    "start:backend": "cd backend && venv-win\\Scripts\\python -m uvicorn app.main:app --reload --port 8000",
+    "start:dashboard": "cd dashboard && npm run dev",
+    "start:mobile": "cd mobile && npm run dev"
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
