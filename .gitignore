@@ -1,5 +1,5 @@
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,8 +7,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
+node_modules/
+dist/
 dist-ssr
 *.local
 
@@ -23,3 +23,73 @@ dist-ssr
 *.sln
 *.sw?
 public/models/*.glb
+
+# --------------- Python ---------------
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+dist/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+*.pyo
+
+# --------------- Environment / Secrets ---------------
+.env
+.env.*
+!.env.example
+
+# --------------- Build Artifacts ---------------
+dist/
+build/
+out/
+*.tgz
+coverage/
+.nyc_output/
+*.lcov
+
+# --------------- IDE / Editor ---------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# --------------- OS Files ---------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --------------- Mobile (React Native / Expo) ---------------
+*.apk
+*.aab
+*.ipa
+*.dSYM.zip
+*.dSYM
+.expo/
+.expo-shared/
+android/app/build/
+android/.gradle/
+ios/Pods/
+ios/build/
+
+# --------------- Logs ---------------
+logs/
+*.log
+
+# --------------- Docker ---------------
+docker-compose.override.yml
+
+# --------------- Misc ---------------
+.cache/
+tmp/
+temp/
