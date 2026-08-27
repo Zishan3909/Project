@@ -32,7 +32,7 @@ fs.cpSync(path.join(rootDir, 'mobile', 'dist'), path.join(deployDir, 'mobile'), 
 
 // 4. Create _redirects
 console.log('Creating _redirects...');
-const redirects = `/dashboard/*  /dashboard/index.html  200\n/mobile/*  /mobile/index.html  200\n/*  /index.html  200`;
+const redirects = `/dashboard/*  /dashboard/index.html  200\n/mobile/*     /mobile/index.html     200`;
 fs.writeFileSync(path.join(deployDir, '_redirects'), redirects);
 
 // 5. Create Root index.html with Auto-Router
